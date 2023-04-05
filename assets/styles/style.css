@@ -206,7 +206,7 @@ header nav .buy-btn {
   }
 }
 #features .row div {
-  height: 300px;
+  padding-block: 20px;
   border: 1px solid #c2b0b0;
   border-radius: 8px;
   transition: 0.3s all linear;
@@ -251,11 +251,11 @@ header nav .buy-btn {
   }
 }
 #plan .container .row .inrow div {
-  height: 64px;
   border: 1px solid #ffffff;
   border-radius: 8px;
   transition: all 0.3s linear;
   cursor: pointer;
+  padding-block: 15px;
 }
 #plan .container .row .inrow div:hover {
   transform: scale(0.9);
