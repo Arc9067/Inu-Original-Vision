@@ -93,6 +93,7 @@ header {
   padding-block: 10px;
   position: absolute;
   top: 0;
+  z-index: 100;
 
   hr {
     background-color: rgba(255, 255, 255, 0.3);
@@ -143,6 +144,7 @@ header {
   // min-height: 100vh;
   width: 100%;
   padding-block: 100px;
+  position: relative;
 
   h1.title {
     font-family: "Work Sans", sans-serif;
@@ -189,6 +191,7 @@ header {
 #features {
   width: 100%;
   padding-block: 50px;
+  position: relative;
 
   h1.title {
     font-family: "Work Sans", sans-serif;
@@ -236,6 +239,7 @@ header {
   width: 100%;
   // background-color: goldenrod;
   padding-block: 50px;
+  position: relative;
 
   .container {
     .row {
@@ -273,8 +277,11 @@ footer {
   width: 100%;
   padding-block: 50px;
   background-color: #ff3737;
-  background: url(../images/footer-over.svg) center center no-repeat;
-  background-size: cover;
+
+  @media (max-width: 700px) {
+    background: url(../images/footer-over.svg) center center no-repeat;
+    background-size: cover;
+  }
 
   p {
     font-weight: 400;
