@@ -145,6 +145,7 @@ header {
   width: 100%;
   padding-block: 100px;
   position: relative;
+  overflow-x: hidden;
 
   h1.title {
     font-family: "Work Sans", sans-serif;
@@ -192,7 +193,7 @@ header {
   width: 100%;
   padding-block: 50px;
   position: relative;
-
+  overflow-x: hidden;
   h1.title {
     font-family: "Work Sans", sans-serif;
     font-weight: 700;
@@ -240,6 +241,7 @@ header {
   // background-color: goldenrod;
   padding-block: 50px;
   position: relative;
+  overflow-x: hidden;
 
   .container {
     .row {

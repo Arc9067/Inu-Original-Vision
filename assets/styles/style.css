@@ -142,6 +142,7 @@ header nav .buy-btn {
   width: 100%;
   padding-block: 100px;
   position: relative;
+  overflow-x: hidden;
 }
 #hero h1.title {
   font-family: "Work Sans", sans-serif;
@@ -189,6 +190,7 @@ header nav .buy-btn {
   width: 100%;
   padding-block: 50px;
   position: relative;
+  overflow-x: hidden;
 }
 #features h1.title {
   font-family: "Work Sans", sans-serif;
@@ -232,6 +234,7 @@ header nav .buy-btn {
   width: 100%;
   padding-block: 50px;
   position: relative;
+  overflow-x: hidden;
 }
 #plan .container .row h1.title {
   font-family: "Work Sans", sans-serif;
