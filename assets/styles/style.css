@@ -6,8 +6,8 @@
   --header-height: 5rem;
   --font-semi: 600;
   /*===== Colores =====*/
-  --first-color: #10156d;
-  --body-bg: #ff3737;
+  --first-color: #4f9fbe;
+  --body-bg: #0000;
   /*===== Fuente y tipografia =====*/
   --body-font: "Raleway", sans-serif;
   --big-font-size: 2rem;
@@ -47,7 +47,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: #fff;
-  background-color: var(--body-bg);
+  background: #000;
   overflow-x: hidden !important;
   min-height: 100vh;
   width: 100%;
@@ -121,7 +121,7 @@ header nav .nav-ul li a {
 }
 header nav .buy-btn {
   padding: 15px 32px;
-  background: #10156d;
+  background: #4f9fbe;
   box-shadow: 0px 4px 8px rgba(9, 50, 67, 0.16);
   border-radius: 4px;
   font-weight: 700;
@@ -140,7 +140,7 @@ header nav .buy-btn {
 
 #hero {
   width: 100%;
-  padding-block: 150px;
+  padding-block: 100px;
   position: relative;
   overflow-x: hidden;
 }
@@ -173,7 +173,7 @@ header nav .buy-btn {
   width: -moz-max-content;
   width: max-content;
   padding: 16px 32px;
-  background: #10156d;
+  background: #4f9fbe;
   box-shadow: 0px 4px 8px rgba(9, 50, 67, 0.16);
   border-radius: 4px;
   font-weight: 700;
@@ -205,6 +205,11 @@ header nav .buy-btn {
     line-height: 52px;
   }
 }
+#features .sub {
+  color: #fff;
+  max-width: 500px;
+  margin-block: 2em;
+}
 #features .row div {
   padding-block: 20px;
   border: 1px solid #c2b0b0;
@@ -230,41 +235,10 @@ header nav .buy-btn {
   transform: scale(0.9);
 }
 
-#plan {
-  width: 100%;
-  padding-block: 50px;
-  position: relative;
-  overflow-x: hidden;
-}
-#plan .container .row h1.title {
-  font-family: "Work Sans", sans-serif;
-  font-weight: 700;
-  font-size: 52px;
-  line-height: 52px;
-  color: #ffffff;
-}
-@media (max-width: 700px) {
-  #plan .container .row h1.title {
-    font-size: 48px;
-    text-align: center;
-    margin-inline: auto;
-  }
-}
-#plan .container .row .inrow div {
-  border: 1px solid #ffffff;
-  border-radius: 8px;
-  transition: all 0.3s linear;
-  cursor: pointer;
-  padding-block: 15px;
-}
-#plan .container .row .inrow div:hover {
-  transform: scale(0.9);
-}
-
 footer {
   width: 100%;
   padding-block: 50px;
-  background-color: #ff3737;
+  background-color: #000;
 }
 @media (max-width: 700px) {
   footer {
